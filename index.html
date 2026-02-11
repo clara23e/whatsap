@@ -1,124 +1,75 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Private Contact Access</title>
+<title>Private Access</title>
 
+<!-- Preview Share -->
 <meta property="og:title" content="Private Contact Access">
-<meta property="og:description" content="Click to start private video call or WhatsApp message">
-<meta property="og:image" content="https://raw.githubusercontent.com/clara23e/whatsap/refs/heads/main/watum.jpe">
+<meta property="og:description" content="Click to open private access">
+<meta property="og:image" content="https://raw.githubusercontent.com/clara23e/whatsap/refs/heads/main/watum.jpeg">
 
 <style>
+
 body{
-  margin:0;
-  font-family: Arial, sans-serif;
-  height:100vh;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background: url("https://raw.githubusercontent.com/clara23e/whatsap/refs/heads/main/welll.jpg") center/cover no-repeat fixed;
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+font-family:Arial;
+background:url("https://raw.githubusercontent.com/clara23e/whatsap/refs/heads/main/welll.jpg") center/cover no-repeat fixed;
 }
 
-/* CARD */
-.card{
-  width:92%;
-  max-width:420px;
-  background: rgba(255,255,255,.85);
-  border-radius:22px;
-  padding:24px;
-  box-shadow:0 10px 30px rgba(0,0,0,.25);
-  text-align:center;
-}
-
-/* HEADER */
-.head{
-  display:flex;
-  gap:12px;
-  align-items:center;
-  text-align:left;
-  margin-bottom:15px;
-}
-
-.head img{
-  width:70px;
-  height:70px;
-  border-radius:16px;
-  object-fit:cover;
-}
-
-.head h3{
-  margin:0;
-  font-size:18px;
-  color:#16a34a;
-}
-
-.head p{
-  margin:4px 0 0;
-  font-size:13px;
-  opacity:.8;
-}
-
-/* BUTTON CEPAT */
+/* tombol */
 .btn{
-  display:block;
-  margin:16px 0;
-  padding:16px;
-  border-radius:40px;
-  text-decoration:none;
-  font-weight:bold;
-  font-size:17px;
-  color:white;
-  background: linear-gradient(45deg,#22c55e,#16a34a);
-
-  /* 🔥 SPEED DI SINI */
-  animation: gerak .25s infinite alternate linear;
-  transition:.15s;
+display:block;
+width:320px;
+text-align:center;
+padding:18px;
+margin:15px;
+background:#25D366;
+color:white;
+font-size:18px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+animation:gerak 0.35s infinite alternate;
 }
 
-.btn.fast {
-  animation-duration:.18s;
+.btn.fast{
+animation:gerak 0.25s infinite alternate;
 }
 
 .btn:hover{
-  transform:scale(1.08);
+transform:scale(1.08);
+background:#1ebc59;
 }
 
-/* GERAK LEBIH JAUH */
 @keyframes gerak{
-  from{ transform:translateX(-18px); }
-  to{ transform:translateX(18px); }
+from{ transform:translateX(-12px);}
+to{ transform:translateX(12px);}
 }
 
-.footer{
-  font-size:12px;
-  opacity:.7;
-  margin-top:10px;
-}
 </style>
 </head>
 
 <body>
 
-<div class="card">
-<img src="thumb.jpg">
-    <div>
+<a class="btn"
+href="https://zeetravelfinance.blogspot.com/2025/12/personal-experience-traveling-to-canada.htm" target"
+target="_blank">
+📹 Click Here To Private Video Call
+</a>
 
-  </div>
-
-  <!-- TOMBOL -->
-  <a class="btn" href="="https://zeetravelfinance.blogspot.com/2025/12/personal-experience-traveling-to-canada.htm" target="_blank">
-    🎥 Click Here To Private Video Call
-  </a>
-
-  <a class="btn fast" href="="https://zeetravelfinance.blogspot.com/2025/12/personal-experience-traveling-to-canada.htm" target="_blank">
-    💬 Send Me A Message
-  </a>
-
-  <div class="footer">Secure Private Access</div>
-
-</div>
+<a class="btn fast"
+href="https://zeetravelfinance.blogspot.com/2025/12/personal-experience-traveling-to-canada.htm" target"
+target="_blank">
+💬 Send Me A Message
+</a>
 
 </body>
 </html>
